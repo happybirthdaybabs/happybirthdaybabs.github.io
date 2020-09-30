@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Happy Birthday Babs!</title>
+  <title>Happy Birthday Babs❣️ </title>
   <link rel="stylesheet" href="./style/stylecake.css">
 
 </head>
@@ -111,6 +111,23 @@
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
 <script  src="./script/scriptcake.js"></script>
+<audio id="myAudio">
+		<source src="./media/babs.mp3" type="audio/mp3">
+		</audio><br>
+<div class="btn-group">
+  <button class="buttonl" onClick=playAudio();>Play</button>
+  <button class="buttonr" onClick=pauseAudio();>Pause</button>
+</div>
+<script>
+var x = document.getElementById("myAudio"); 
 
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
 </body>
 </html>

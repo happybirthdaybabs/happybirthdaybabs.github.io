@@ -3,6 +3,35 @@
   box-sizing: border-box;
   font-weight: normal;
 }
+.buttonl,.buttonr {
+  clear: both;
+  font-family: 'Damion', cursive;
+  background: transparent;
+  border: 2px solid #e77572;
+  color: #e77572;
+  font-size: 19px;
+  padding: 11px 22px;
+  border-radius: 30px;
+  -webkit-transition: all .23s;
+  transition: all .23s;
+  outline: none;
+  cursor: pointer;
+  width:120px;
+}
+.buttonl{
+	float: left;
+}
+.buttonr {
+	float: right;
+}
+.btn-group{
+	position: absolute;
+	bottom: 10px;
+}
+button:hover {
+  background: #e77572;
+  color: white;
+}
 
 body {
   font-family: 'Damion', cursive;
